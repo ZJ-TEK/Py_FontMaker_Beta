@@ -1,6 +1,8 @@
 # Py_FontMaker_Beta
 这个版本是测试版本，外部字库只支持2个字号文件，正式版本请关注公众号
+
 fake字库只支持2bpp和24像素，内部字库也只支持2bpp和24像素
+
 验证代码：https://github.com/ZJ-TEK/ZJ_RT_Thread_LVGL_Font
 ## Py_FontMaker介绍
 - help信息
