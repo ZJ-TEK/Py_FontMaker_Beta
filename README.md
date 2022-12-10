@@ -4,6 +4,11 @@
 fake字库只支持2bpp和24像素，内部字库也只支持2bpp和24像素
 
 验证代码：https://github.com/ZJ-TEK/ZJ_RT_Thread_LVGL_Font
+
+验证开发板淘宝链接(只有57块，有想玩的就玩吧)
+
+https://m.tb.cn/h.URsW5y2?tk=SO4YdWH1lQO
+
 ## Py_FontMaker介绍
 - help信息
 
