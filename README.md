@@ -25,7 +25,7 @@ https://m.tb.cn/h.URsW5y2?tk=SO4YdWH1lQO
 |--XBF |功能项-> ttf 生成 XBF| |False|
 |--LIB |功能项-> xbf生成font_lib| |False|
 |--INNER| 功能项-> 产生内部字库| |False|
-|--ICON |功能项-> 产生图标字库| False|
+|--ICON |功能项-> 产生图标字库| |False|
 |--EMOJI| 功能项-> 产生emoji字库| |False|
 |--min |参数-> unicode最小值 |XBF使用 |0x00|
 |--max |参数-> unicode最大值 |XBF使用 |0xffff|
