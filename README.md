@@ -49,19 +49,19 @@ https://m.tb.cn/h.URsW5y2?tk=SO4YdWH1lQO
 
   ![输出路径选择](/image/pictures/GUI1.jpg) 
 
-- 生成LIB和代码
-
-  ![生成LIB和代码](/image/pictures/GUI2.jpg) 
-
-
 - 生成XBF
 
-  ![生成XBF](/image/pictures/GUI3.jpg) 
+  ![生成XBF](/image/pictures/GUI2.jpg) 
 
 
 - 生成LIB和代码
 
-  ![生成LIB和代码](/image/pictures/GUI4.jpg) 
+  ![生成LIB和代码](/image/pictures/GUI3.jpg) 
+
+
+- 生成INNER代码
+
+  ![生成INNER代码](/image/pictures/GUI4.jpg) 
 
 
 - 生成EMOJI
