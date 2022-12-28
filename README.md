@@ -30,11 +30,11 @@ https://m.tb.cn/h.URsW5y2?tk=SO4YdWH1lQO
 |--min	|参数-> unicode最小值	|XBF使用	|0x00|
 |--max 	|参数-> unicode最大值	|XBF使用	|0xffff|
 |--ttf 	|参数-> 字体文件路径	|XBF,LIB(fake)和INNER	|.\font_xbf\TTF_file\HarmonyOS_Sans_SC_Medium.ttf|
-|--bpp	|参数-> 灰度位	XBF,LIB(fake)和INNER|	|2
+|--bpp	|参数-> 灰度位	|XBF,LIB(fake)和INNER	|2
 |--height 	|参数-> 字符像素高度	|XBF,LIB(fake)和INNER|	|24|
 |--lib_file	|参数-> 生成Font_Lib时的字库类型文件	|LIB使用	|.\font_type\all_font_type_to_generate.txt|
 |--fake_file	|参数-> 生成Fake font字符的txt文件	|LIB(fake)	|.\font_type\FAKE_FONT_CODE_POINT.txt|
-|--inte_file	|参数-> 生成内部字库字符的txt文件	|INNER使用	|.\font_type\INTERIOR_FONT_CODE_POINT.txt|
+|--inner_file	|参数-> 生成内部字库字符的txt文件	|INNER使用	|.\font_type\INTERIOR_FONT_CODE_POINT.txt|
 |--icon_file	|参数-> 生成图标字库字符的txt文件	|ICON 使用	|.\font_type\ICON_FONT_CODE_POINT.txt|
 |--emoji_file	|参数-> 生成emoji字库字符的txt文件	|EMOJI使用	|.\font_type\EMOJI_FONT_CODE_POINT.txt|
 |--emoimgpath	|参数-> 生成emoji的图片资源路径	EMOJI使用	|.\UI_resource\emoji\32|
