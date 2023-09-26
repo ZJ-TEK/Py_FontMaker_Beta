@@ -1,15 +1,13 @@
 # Py_FontMaker
 一款嵌入式通用字库生成工具，自动生成通用访问代码，支持LVGL，非LVGL，支持hash查表，二分法查表，支持RLE压缩，支持cmap缓存，支持外部bin和内部.c生成，支持多语言，多字号多字体，支持图标字库和emoji混合消息展示。
 
-
-这个就是正式版本
 关注公众号：Bluetooth-BLE，QQ群：177341833
 
-验证代码：https://github.com/ZJ-TEK/ZJ_RT_Thread_LVGL_Font
+验证代码：https://gitee.com/woowill/ZJ_RT_Thread_LVGL_Font_Nordic.git
 
-验证开发板淘宝链接(只有57块，有想玩的就玩吧)
+验证板子：https://item.taobao.com/item.htm?id=694863934116
 
-https://m.tb.cn/h.URsW5y2?tk=SO4YdWH1lQO
+Py_FontMaker验证下载工具：https://item.taobao.com/item.htm?id=624639720338
 
 ## Py_FontMaker介绍
 - help信息
@@ -19,6 +17,10 @@ https://m.tb.cn/h.URsW5y2?tk=SO4YdWH1lQO
 - 工具生成的代码
 
   ![Py_FontMaker -h](/image/pictures/工具生成的demo代码.jpg) 
+
+- 工具多语言excle转换的代码
+
+  ![多语言代码](/image/pictures/多语言excle转换的代码.jpg) 
 
 - 命令描述
 
@@ -30,6 +32,7 @@ https://m.tb.cn/h.URsW5y2?tk=SO4YdWH1lQO
 |--INNER| 功能项-> 产生内部字库| |False|
 |--ICON |功能项-> 产生图标字库| |False|
 |--EMOJI| 功能项-> 产生emoji字库| |False|
+|--LANG| 功能项-> 将多语言Excel表转为.c和.h| |False|
 |--min |参数-> unicode最小值 |XBF使用 |0x00|
 |--max |参数-> unicode最大值 |XBF使用 |0xffff|
 |--ttf |参数-> 字体文件路径	|XBF,LIB(fake)和INNER |.\font_xbf\TTF_file\HarmonyOS_Sans_SC_Medium.ttf|
@@ -76,7 +79,24 @@ https://m.tb.cn/h.URsW5y2?tk=SO4YdWH1lQO
 
   ![生成ICON](/image/pictures/GUI6.jpg) 
 
-## 字库显示效果
+- 多语言Excel表转为.c和.h
+
+  ![多语言Excel表转为.c和.h](/image/pictures/GUI7.jpg) 
+
+## JLink下载SPI Flash
+- JLink SPI接口定义
+
+  ![JLink SPI接口定义](/image/pictures/Jtag的SPI接口.jpg) 
+
+- JLink下载spiflash接线
+
+  ![JLink SPI接口定义](/image/pictures/spi下载接线.png) 
+
+- JLink下载spiflash接线
+
+  ![JLink SPI接口定义](/image/pictures/jlink下载spiflash接线.jpg) 
+
+## 字库显示效果  
 - LVGL显示效果
 
   ![LVGL显示效果](/image/pictures/LVGL显示效果.jpg) 
@@ -85,7 +105,7 @@ https://m.tb.cn/h.URsW5y2?tk=SO4YdWH1lQO
 
   ![裸机显示效果](/image/pictures/非LVGL显示效果.jpg)
 
-### 公众号:Bluetooth-BLE  
+## 公众号:Bluetooth-BLE  
   ![公众号:Bluetooth-BLE](/image/QR/公众号.jpg  "公众号:Bluetooth-BLE") 
-### QQ群:177341833  
+## QQ群:177341833  
   ![QQ群:177341833](/image/QR/qq群.jpg  "QQ群:177341833") 
